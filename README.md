@@ -1,6 +1,12 @@
 Alphanumeric Random
 ===================
 
+By Taka Oyama
+
+[![Build Status](https://travis-ci.org/taka-oyama/alphanumeric_random.svg?branch=master)](https://travis-ci.org/taka-oyama/alphanumeric_random)
+
+## Information
+
 This gem generates random alphanumeric string of specified length.
 Alphanumeric string consists of A-Z, a-z, 0-9 (total of 62 chars).
 *Please do the math and calculate the probability if you're using this for ID generation.
