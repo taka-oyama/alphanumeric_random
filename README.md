@@ -19,7 +19,7 @@ AlphanumericRandom.generate(length: 20)   # crr9s7fRtXw3OU85Z6z0
 
 ## Install
 ```ruby
-gem 'alphanumeric_random', git: 'https://github.com/taka-oyama/alphanumeric_random.git'
+gem 'alphanumeric_random', github: 'taka-oyama/alphanumeric_random'
 ```
 
 ## Methods
