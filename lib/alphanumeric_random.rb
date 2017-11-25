@@ -15,7 +15,7 @@ class AlphanumericRandom
       additional_chars: []
     }.merge!(options)
 
-    throw 'Integer expected for length' unless options[:length].kind_of?(Fixnum)
+    throw 'Integer expected for length' unless options[:length].kind_of?(Integer)
     throw 'negative length given' unless options[:length] >= 0
     throw 'non boolean value for :unique' unless [true, false].include?(options[:unique])
     throw 'non boolean value for :human' unless [true, false].include?(options[:human])
